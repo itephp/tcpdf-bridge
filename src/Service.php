@@ -14,6 +14,9 @@
  */
 namespace ItePHP\TCPDF;
 
+use ItePHP\Contener\ServiceConfig;
+use ItePHP\Core\EventManager;
+
 class Service{
 	
 	public function __construct(ServiceConfig $serviceConfig,EventManager $eventManager){
