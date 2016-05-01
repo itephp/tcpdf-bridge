@@ -1,0 +1,20 @@
+{
+    "name": "itephp/tcpdf-bridge",
+    "description": "The ItePHP TCPDF bridge.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michal Tomczak",
+            "email": "michal.tomczak@itephp.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+        ,"tecnickcom/tcpdf": "^6.2"
+        },
+    "autoload": {
+        "psr-4": { "ItePHP\\TCPDF\\": "src" }
+    },
+    "minimum-stability": "dev"
+}
